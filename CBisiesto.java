@@ -18,19 +18,19 @@ public class CBisiesto
 
    private static boolean div4(Integer y)
    {
-      boolean divisible = ( y % 4 == 0 ) ? true: false;
+      boolean divisible = ( y % 4 == 0 );
       return divisible;
    }
 
    private static boolean div100(Integer y)
    {
-      boolean divisible = ( y % 100 == 0 ) ? true: false;
+      boolean divisible = ( y % 100 == 0 );
       return divisible;
    }
 
    private static boolean div400(Integer y)
    {
-      boolean divisible = ( y % 400 == 0 ) ? true: false;
+      boolean divisible = ( y % 400 == 0 );
       return divisible;
    }
    
